@@ -1,0 +1,96 @@
+/* pages/tuo/tuo.wxss */
+.tuo_1{
+  width: 100%;
+  height: 350rpx;
+}
+.tuo{
+  width: 100%;
+  height: 280rpx;
+  position: relative;
+}
+.tuo_2{
+  width: 90%;
+  margin-left:30rpx;
+  height: 280rpx;
+}
+.tuo_3{
+  width: 100rpx;
+  height: 48rpx;
+  position: absolute;
+  top: 0;
+  left: 30rpx;
+  border-radius: 30rpx;
+}
+.tuo_3 image{
+  width: 100%;
+  height: 100%;
+}
+.tuo_3 view{
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 5rpx;
+}
+.tuo_5{
+  width: 100%;
+  height: 100rpx;
+  position: relative;
+  margin-top: 16rpx;
+  margin-bottom: 30rpx;
+}
+.tuo_6{
+  color: rgb(68,68,68);
+  font-size: 32rpx;
+  font-weight: bold;
+  margin-left: 35rpx;
+}
+.tuo_7{
+  display: flex;
+  margin-top: 30rpx;
+  margin-bottom: 20rpx;
+}
+.tuo_8{
+  color: rgb(255,113,0);
+  font-size: 30rxp;
+  position: absolute;
+  left: 36rpx;
+}
+.tuo_9{
+  color: rgb(255,113,0);
+  font-size: 33rpx;
+  position: absolute;
+  left: 62rpx;
+}
+.tuo_10{
+  color: #333;
+  position: absolute;
+  left: 150rpx;
+  margin-top: 5rpx;
+  font-size: 28rpx;
+  text-decoration: line-through;
+}
+.tuo_11{
+  width: 46rpx;
+  height: 46rpx;
+  position: absolute;
+  left: 320rpx;
+  opacity: 0.71;
+}
+.tuo_12{
+  color: #333;
+  font-size: 24rpx;
+  position: absolute;
+  right: 200rpx;
+  border-left: 1rpx solid #333;
+}
+.tuo_13{
+  width: 104rpx;
+  height: 104rpx;
+  position: absolute;
+  right: 50rpx;
+  bottom:-20rpx;
+}
+
+
+
+

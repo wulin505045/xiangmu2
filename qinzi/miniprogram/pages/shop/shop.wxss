@@ -1,0 +1,153 @@
+/* pages/shop/shop.wxss */
+.shop_1{
+  border-color: rgb(34,34,34);
+  box-shadow: rgb(229,229,229) 0 4rpx 8rpx;
+  background-color: rgb(229,229,229);
+  width: 95%;
+  border-radius: 40rpx;
+  margin: 0 auto;
+}
+.shop_img1{
+  width: 95%;
+  height: 168rpx;
+  border-radius: 50rpx;
+  margin-left:18rpx;
+}
+.shop_2{
+  height: 100rpx;
+  border-color: rgb(34,34,34);
+  position: relative;
+}
+.shop_3{
+  font-weight: bold;
+  font-size:36rpx;
+  color: rgb(254,53,135); 
+  position: absolute;
+  top: 50rpx;
+  left: 30rpx;
+}
+.shop_img2{
+  width: 230rpx;
+  height: 72rpx;
+  position: absolute;
+  top:40rpx;
+  left: 100rpx;
+}
+.shop_4{
+  font-size: 30rpx;
+  font-weight: bold;
+  color: rgb(254, 53, 135);
+  position: absolute;
+  right: 20rpx;
+  top:50rpx;
+}
+.shop_5{
+  margin-top: 20rpx;
+  height: 250rpx;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 40rpx;
+}
+.shop_5>view>image{
+  width: 196rpx;
+  height: 250rpx;
+}
+.shop_5>view>view{
+  color: rgb(254, 53, 135);
+  font-size: 30rpx;
+}
+.shop_6{
+  margin-top: 50rpx;
+  width: 100%;
+  background-color: rgb(243,243,243);
+  display: flex;
+  flex-wrap: wrap;
+}
+.shop_7{
+  width: 50%;
+  position: relative;
+}
+.shop_7 image{
+  width: 95%;
+  height: 350rpx;
+  margin-left: 10rpx;
+  margin-top: 20rpx;
+}
+/* .shop_8{
+  width: 50%;
+  position: relative;
+}
+.shop_8 image{
+  width: 95%;
+  height: 70%;
+  margin-right: 10rpx;
+  margin-top: 20rpx;
+} */
+.shop_title{
+  color: #333;
+  font-size: 30rpx;
+  margin-left:40rpx; 
+}
+.shop_yy{
+  background: rgba(20, 12, 5, 0.2);
+  border-radius:40rpx;
+  width: 150rpx;
+  height: 32rpx;
+  margin-left: 40rpx; 
+  margin-top: 10rpx;
+}
+.shop_yy1{
+  color: #ff7100;
+  font-size: 24rpx;
+  text-align: center;
+}
+.shop_bb{
+  background: rgba(255, 113, 0, 0.2);
+  border-radius:40rpx;
+  width: 90rpx;
+  height: 32rpx;
+  position: absolute;
+  bottom:91rpx;
+  left: 286rpx;
+}
+.shop_bb1{
+  color: #ff7100;
+  font-size: 24rpx;
+  text-align: center;
+}
+.shop_zz{
+  font-size: 34rpx;
+  /* color: #ff7100; */
+  margin-left: 40rpx; 
+  margin-top: 5rpx;
+}
+.shop_y{
+  font-size: 26rpx;
+  color: #999;
+  position: absolute;
+  left: 186rpx;
+  bottom: 1rpx;
+  text-decoration: line-through;
+}
+.fk{
+  font-size: 26rpx;
+  color: #999;
+  margin-left: 40rpx;
+}
+
+.gw1{
+  width: 61rpx;
+  height: 20rpx;
+  /* position: absolute; */
+  /* right: 20rpx;
+  bottom: 10rpx; */
+}
+.gw2{
+  width: 100%;
+}
+
+
+
+
+
+

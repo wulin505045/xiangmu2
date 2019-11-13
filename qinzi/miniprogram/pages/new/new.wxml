@@ -1,0 +1,86 @@
+<van-tabs active="{{ active }}" bind:change="onChange">
+  <van-tab title="最新入驻">
+    <view class="rz"  wx:for="{{list2}}" wx:key="index" > 
+      <view class="rz_1">
+        <view class="rz_2">{{item.title}}</view>
+          <image src="{{item.image1}}" class="rz_img1"></image>
+          <image src="{{item.image2}}" class="rz_img2"></image>
+          <image src="{{item.image3}}" class="rz_img3"></image>
+          <view class="rz_3">我是文本</view>
+      </view>
+      <view class="hy">
+        <image src="{{item.image4}}" class="hy_1"></image>
+        <view class="hy_2">{{item.detail}}</view>
+        <view class="hy_3">
+          <view class="hy_4" bindtap="shixue" data-id="{{item._id}}">{{item.yy}}</view>
+        </view>
+      </view>
+      <view class="tu_1">
+        <image class="tu_2" src="{{item.image5}}"></image>
+      </view>
+    </view>
+  </van-tab>
+  <van-tab title="附件优选">
+    <view class="rz"  wx:for="{{list3}}" wx:key="index">
+      <view class="rz_1">
+        <view class="rz_2">{{item.title}}</view>
+          <image src="{{item.image1}}" class="rz_img1"></image>
+          <image src="{{item.image2}}" class="rz_img2"></image>
+          <image src="{{item.image3}}" class="rz_img3"></image>
+          <view class="rz_3">我是文本</view>
+      </view>
+      <view class="hy">
+        <image src="{{item.image4}}" class="hy_1"></image>
+        <view class="hy_2">{{item.detail}}</view>
+        <view class="hy_3">
+          <view class="hy_4" bindtap="shixue" data-id="{{item._id}}">{{item.yy}}</view>
+        </view>
+      </view>
+      <view class="tu_1">
+        <image class="tu_2" src="{{item.image5}}"></image>
+      </view>
+    </view>
+  </van-tab>
+   <van-tab title="人气浏览">
+    <view class="rz"  wx:for="{{list4}}" wx:key="index">
+      <view class="rz_1">
+        <view class="rz_2">{{item.title}}</view>
+          <image src="{{item.image1}}" class="rz_img1"></image>
+          <image src="{{item.image2}}" class="rz_img2"></image>
+          <image src="{{item.image3}}" class="rz_img3"></image>
+          <view class="rz_3">我是文本</view>
+      </view>
+      <view class="hy">
+        <image src="{{item.image4}}" class="hy_1"></image>
+        <view class="hy_2">{{item.detail}}</view>
+        <view class="hy_3">
+          <view class="hy_4" bindtap="shixue" data-id="{{item._id}}">{{item.yy}}</view>
+        </view>
+      </view>
+      <view class="tu_1">
+        <image class="tu_2" src="{{item.image5}}"></image>
+      </view>
+    </view>
+  </van-tab>
+   <van-tab title="新手数量">
+    <view class="rz"  wx:for="{{list5}}" wx:key="index">
+      <view class="rz_1">
+        <view class="rz_2">{{item.title}}</view>
+          <image src="{{item.image1}}" class="rz_img1"></image>
+          <image src="{{item.image2}}" class="rz_img2"></image>
+          <image src="{{item.image3}}" class="rz_img3"></image>
+          <view class="rz_3">我是文本</view>
+      </view>
+      <view class="hy">
+        <image src="{{item.image4}}" class="hy_1"></image>
+        <view class="hy_2">{{item.detail}}</view>
+        <view class="hy_3">
+          <view class="hy_4" bindtap="shixue" data-id="{{item._id}}">{{item.yy}}</view>
+        </view>
+      </view>
+      <view class="tu_1">
+        <image class="tu_2" src="{{item.image5}}"></image>
+      </view>
+    </view>
+  </van-tab>
+</van-tabs>

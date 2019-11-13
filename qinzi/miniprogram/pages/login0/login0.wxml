@@ -1,0 +1,30 @@
+<!--pages/login0/login0.wxml-->
+<!-- <text>pages/login0/login0.wxml</text> -->
+<!--pages/login0/login0.wxml-->
+<view class="profile">
+  <view class="profile-img">
+     <open-data type="userAvatarUrl">
+     </open-data>
+  </view>
+  <view class="profile-name">
+      <open-data type="userNickName">
+      </open-data>
+  </view>
+</view>
+<button open-type="getUserInfo" bindgetuserinfo="handle3">
+ 获取用户信息
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

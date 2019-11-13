@@ -1,0 +1,89 @@
+<!--pages/make/make.wxml-->
+<!-- <text>pages/make/make.wxml</text> -->
+<view class="zj">
+<van-goods-action>
+  <van-goods-action-icon
+    icon="chat-o"
+    text="客服"
+    bind:click="onClickIcon"
+  />
+  <van-goods-action-icon
+    icon="shop-o"
+    text="收藏"
+    bind:click="onClickIcon"
+  />
+  <van-goods-action-icon
+    icon="cart-o"
+    text="购物车"
+    bind:click="onClickIcon"
+  />
+  <van-goods-action-button
+    text="加入购物车"
+    type="warning"
+    bind:click="onClickButton"
+  />
+  <van-goods-action-button
+    text="立即购买"
+    bind:click="onClickButton"
+  />
+</van-goods-action>
+</view>
+<image src="{{item.image2}}" class="make_img1"></image>
+<view class="make_1">
+  <view class="make_2">￥{{item.price}}</view>
+  <view class="make_3">{{item.title}}</view>
+  <image class="make_4" src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/fenx.png"></image>
+  <view class="make_5">
+  <image class="make_6" src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/dz.png"></image>
+  <view class="make_7">好物推荐</view>
+  </view>
+</view>
+<view class="make_8">
+  <view class="make_9">优惠劵</view>
+  <view class="make_10">领取优惠劵</view>
+  <image  class="make_img2" src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/cahkan.png"></image>
+</view>
+<view class="make_11">
+  <view class="make_9">配送卷</view>
+  <view class="make_10">配送劵包邮</view>
+</view>
+<view class="qh_1">
+  <view class="qh_2">取货方式</view>
+  <view class="qh_3">
+    <image src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/yx.png" class="qh_4"></image>
+    <view class="qh_5">{{item.pei}}</view>
+  </view>
+</view>
+<view class="jy_1">
+  <view class="jy_2">
+    <image class="jy_img" src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/26.jpg"></image>
+    <view class="jy_3">乐恩教育</view>
+  </view>
+  <view class="jy_4">进入店铺</view>
+</view>
+<image src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/jt.png" class="jt_1"></image>
+<view>
+  <view class="sp_1">商品详情</view>
+  <image class="tp_5" wx:if="{{isShow}}" src="{{item.image6}}"></image>
+</view>
+<view class="tp_10">
+  
+  <image src="{{item.image7}}"></image>
+  <image src="{{item.image8}}"></image>
+  <image src="{{item.image9}}"></image>
+  <image src="{{item.image10}}"></image>
+  <image src="{{item.image11}}"></image>
+  <image src="{{item.image12}}"></image>
+  <image src="{{item.image13}}"></image>
+</view>
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,104 @@
+<!--pages/details/details.wxml-->
+<!-- <text>pages/details/details.wxml</text> -->
+<van-goods-action>
+  <van-goods-action-icon
+    icon="shop-o"
+    text="收藏"
+    bind:click="onClickIcon"
+  />
+  <van-goods-action-icon
+    icon="chat-o"
+    text="客服"
+    bind:click="onClickIcon"
+  />
+  <van-goods-action-button
+    text="加入购物车"
+    type="warning"
+    bind:click="onClickButton"
+  />
+  <van-goods-action-button
+    text="立即购买"
+    bind:click="onClickButton"
+  />
+</van-goods-action>
+<van-tabs active="{{ active }}" bind:change="onChange">
+  <van-tab title="商品">
+    <!-- 轮播图 -->
+      <view>
+      <swiper indicator-dots="true" autoplay="true" interval="5000" duration="500" circular="true" style="height:828rpx;">
+      <swiper-item>
+      <image src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/29.jpg" style="width:100%;height:828rpx;"></image>
+      </swiper-item>
+      <swiper-item>
+      <image src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/30.jpg" style="width:100%;height:828rpx;"></image>
+      </swiper-item>
+      </swiper>
+      </view>
+  </van-tab>
+  <van-tab title="拼团">内容 2</van-tab>
+  <van-tab title="详情">内容 3</van-tab>
+</van-tabs>
+<view class="rm">
+  <view class="rm_1">
+    <view class="rm_2">
+      <view class="money">￥</view>
+      <view class="rm_3">299.00</view>
+      <view class="rm_4">￥598.00</view>
+    </view>
+    <view class="rm_5">
+      <view class="rm_6">距拼团结束还剩:</view>
+      <van-count-down
+        time="{{ time }}"
+        format="DD 天 HH 时 mm 分 ss 秒"
+      />
+    </view>
+  </view>  
+  <view class="rm_7">
+  仨宝映像--儿童摄影拼团活动
+  </view>
+  <view class="rm_8">
+    <view>运费</view>
+    <view>选择产品规格</view>
+    <view class="rm_9">
+      <view>取货方式</view>
+      <view class="zt_1">
+        <image src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/35.png"></image>
+        <view>自提</view>
+      </view>
+    </view>
+    <view>拼团玩法</view>
+      <view class="pt">
+          <view>
+          <image src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/31.png"></image>
+          <view>团长开团</view>
+          </view>
+          <view>
+          <image src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/32.png"></image>
+          <view>邀请好友</view>
+          </view>
+          <view>
+          <image src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/33.png"></image>
+          <view>人数多价格低</view>
+          </view>
+          <view>
+          <image src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/34.png"></image>
+          <view>等待发货</view>
+          </view>
+      </view>
+      <view class="jy_1">
+  <view class="jy_2">
+    <image class="jy_img" src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/26.jpg"></image>
+    <view class="jy_3">乐恩教育</view>
+  </view>
+  <view class="jy_4">进入店铺</view>
+</view>
+  </view>
+  <image class="tp_1" src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/31.jpg"></image>
+</view>
+
+
+
+
+
+
+

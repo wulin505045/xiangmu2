@@ -1,0 +1,76 @@
+<!--pages/si/si.wxml-->
+<!-- <text>pages/si/si.wxml</text> -->
+<view class="zj">
+  <van-goods-action>
+    <van-goods-action-icon
+      icon="shop-o"
+      text="分享"
+      bind:click="onClickIcon"
+    />
+    <van-goods-action-icon
+      icon="chat-o"
+      text="客服"
+      bind:click="onClickIcon"
+    />
+    <van-goods-action-button
+      text="优惠买单"
+      bind:click="onClickButton"
+    />
+  </van-goods-action>
+</view>
+<view>
+  <image class="si_img" src="{{item.image5}}"></image>
+  <view class="si_1">
+    <view class="si_2">{{item.title}}</view>
+    <view class="si_3">
+      <view>WIFI</view>
+      <view>停车位</view>
+      <view>微信支付</view>
+      <view>支付宝</view>
+    </view>
+  </view>
+  <view class="si_4">
+    <view>
+      <image src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/dizhi.png"></image>
+      <view>{{item.map}}</view>
+    </view>
+    <view>
+      <image src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/dian.png"></image>
+      <view>{{item.phone}}</view>
+    </view>
+  </view>
+</view>
+<van-tabs active="{{ active }}" bind:change="onChange">
+  <van-tab title="商品">
+    <view class="si_5">
+      <image src="{{item.image5}}"></image>
+      <view>电商</view>
+    </view>
+    <view>
+      <view class="si_6">
+        <image src="{{item.image6}}"></image>
+        <view class="si_7">
+          <view>1000元套餐</view>
+          <view>￥ {{item.price}}</view>
+        </view>
+        <view class="si_8">已售0</view>
+      </view>
+      <view class="si_6">
+        <image src="{{item.image6}}"></image>
+        <view class="si_7">
+          <view>1000元套餐</view>
+          <view>￥ 1000.00</view>
+        </view>
+        <view class="si_9">已售0</view>
+        
+      </view>
+      <view class="si_10">
+          <image src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/soma.jpg"></image>
+        </view>
+    </view>
+  </van-tab>
+  <van-tab title="评价">内容 2</van-tab>
+  <van-tab title="店铺信息">内容 3</van-tab>
+</van-tabs>
+
+

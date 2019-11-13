@@ -1,0 +1,77 @@
+<!--pages/find/find.wxml-->
+<!-- <text>pages/find/find.wxml</text> -->
+<view id="find">
+  <view class="find_1">
+    <view class="find_2">
+      <image src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/1.jpg" class="find_img1"></image>
+      <image src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/2.jpg" class="find_img2"></image>
+    </view>
+    <image src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/3.png" class="wz"></image>
+  </view>
+</view>
+<van-tabs active="{{ active }}" bind:change="onChange" class="tabs">
+    <van-tab title="最新发表">
+      <view class="f_1">
+        <image src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/22.png" class="f_img"></image>
+        <view class="t">热巴</view>
+        <view class="m">2019-10</view>
+        <view class="p">热巴来了</view>
+        <view class="d">82阅读量</view>
+        <image src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/dz.png" class="dz"></image>
+        <view class="sl_1">108</view>
+        <image src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/pl.png" class="pl"></image>
+        <view class="sl_2">3223</view>
+      </view>
+    </van-tab>
+    <van-tab title="最热话题">
+      <view class="f_1">
+        <image src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/22.png" class="f_img"></image>
+        <view class="t">热巴</view>
+        <view class="m">2019-10</view>
+        <view class="p">热巴来了</view>
+        <view class="d">82阅读量</view>
+        <image src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/dz.png" class="dz"></image>
+        <view class="sl_1">108</view>
+        <image src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/pl.png" class="pl"></image>
+        <view class="sl_2">3223</view>
+      </view>
+    </van-tab>
+    <van-tab title="最热回复">
+      <view class="f_1">
+        <image src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/timg1.png" class="f_img"></image>
+        <view class="t">热巴</view>
+        <view class="m">2019-10</view>
+        <view class="p">热巴来了</view>
+        <view class="d">82阅读量</view>
+        <image src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/dz.png" class="dz"></image>
+        <view class="sl_1">108</view>
+        <image src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/pl.png" class="pl"></image>
+        <view class="sl_2">3223</view>
+      </view>
+    </van-tab>
+    <van-tab title="距离最近">
+      <view class="f_1">
+        <image src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/22.png" class="f_img"></image>
+        <view class="t">热巴</view>
+        <view class="m">2019-10</view>
+        <view class="p">热巴来了</view>
+        <view class="d">82阅读量</view>
+        <image src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/dz.png" class="dz"></image>
+        <view class="sl_1">108</view>
+        <image src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/pl.png" class="pl"></image>
+        <view class="sl_2">3223</view>
+      </view>
+    </van-tab>
+</van-tabs>
+
+
+
+
+
+
+
+
+
+
+
+

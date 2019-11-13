@@ -1,0 +1,126 @@
+/* pages/my/my.wxss */
+.profile{
+  background: #a54847;
+  height:400rpx;
+  text-align: center; /*子元素居中*/
+  position: relative; /*相对定位*/
+  width:100%;
+}
+/*2:子元素绝对定位圆角50%*/
+.profile-img{
+  position: absolute;/*绝对定位*/
+  width:200rpx;      /*宽高*/
+  height:200rpx;
+  display: block;
+  overflow: hidden;  /*溢出隐藏*/
+  border-radius: 50%;/*圆角*/
+  left:50%;
+  transform: translate(-50%,60rpx);
+}
+.denglu{
+  text-align: center;
+  position: absolute;
+  top:280rpx;
+  left: 260rpx;
+  color: #fff;
+}
+#my{
+  background-color: #F2F2F2;
+}
+/* 头部 */
+.header-container {
+  display: flex;
+  flex-direction: row;
+  height: 200rpx;
+  background-color: #fff;
+  align-items: center;
+  position: relative;
+  /* background-image: url(../../image/me/myinfo_bg.png); */
+}
+
+.header-bg{
+  width: 100%;
+  height: 100%;
+}
+
+/* 名称和头像 */
+.userContent{
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.header-avatar {
+  background-color: #fff;
+  width: 110rpx;
+  height: 110rpx;
+  margin: 0 20rpx;
+  border-radius: 50%;
+}
+
+.header-nickname {
+  color: #fff;
+  font-size: 30rpx;
+}
+
+/* 帐号管理和信息 */
+/* .header-userInfo{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 120rpx;
+  margin-left: auto;靠右
+  } */
+  .myorder{
+    line-height: 30rpx;
+    /* width: 100%; */
+    height: 30rpx;
+    padding:40rpx 40rpx;
+    border-bottom: 0.01rem solid #f7f7f7;
+  }
+  .myorder-left{
+    float: left;
+    font-size: 30rpx;
+    color: #000000;
+  }
+  .myorder-right{
+    font-size: 26rpx;
+    float: right;
+    height: 24rpx;
+    color: #999999;   
+  }
+  .icon-big{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F2F2F2;
+    padding: 40rpx 0;
+  }
+  .icon-1{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  .gongju{
+    line-height: 30rpx;
+    width: 100%;
+    height: 30rpx;
+    padding:40rpx 40rpx;
+    border-bottom: 0.01rem solid #f7f7f7;
+  }
+  .gongju-flex{
+    display: flex;
+   
+    flex-wrap: wrap;
+  }
+  .icon-2{
+    display: flex;
+    flex-direction: column;
+    margin: 20rpx 0;
+    text-align: center;
+    width: 25%;
+    
+  }

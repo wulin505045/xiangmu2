@@ -1,0 +1,99 @@
+/* pages/new/new.wxss */
+.rz_1{
+  width: 100%;
+  height: 150rpx;
+  position: relative;
+}
+.rz_2{
+  line-height: 150rpx;
+  border-color: rgb(34,34,34);
+  color: rgb(53,53,53);
+  font-size: 38rpx;
+  font-weight: bold;
+  opacity: 1;
+  position: absolute;
+  left: 20rpx;
+}
+.rz_img1{
+  width: 47rpx;
+  height: 47rpx;
+  position: absolute;
+  top: 52rpx;
+  left: 490rpx; 
+  opacity: 0.51;
+}
+.rz_img2{
+  width: 5.5rpx;
+  height: 42rpx;
+  position: absolute;
+  top: 52rpx;
+  left: 590rpx;
+  opacity: 0.51;
+}
+.rz_img3{
+  width: 47rpx;
+  height: 47rpx;
+  position: absolute;
+  top: 52rpx;
+  left: 600rpx;
+   opacity: 0.51;
+}
+.rz_3{
+  position: absolute;
+  top: 60rpx;
+  left:640rpx;
+  font-size: 22rpx;
+}
+.hy{
+  height: 150rpx;
+  position: relative;
+  top:-20rpx;
+}
+.hy_1{
+  width: 42rpx;
+  height: 42rpx;
+  position: absolute;
+  top: 0rpx;
+  left: 20rpx;
+  opacity: 1;
+}
+.hy_2{
+  width: 485rpx;
+  height: 150rpx;
+  position: absolute;
+  left: 80rpx;
+  font-size: 28rpx;
+  color: rgb(102,102,102);
+}
+.hy_3{
+  border-color: rgb(34,34,34);
+  background-color: rgb(61,172,106);
+  width: 140rpx;
+  height: 59rpx;
+  position: absolute;
+  right: 30rpx;
+  top:10rpx;
+  border-radius: 12rpx;
+  opacity: 0.9;
+}
+.hy_4{
+  line-height: 59rpx;
+  border-color:rgb(34,34,34);
+  font-size: 32rpx;
+  opacity: 1;
+  text-align: center; 
+}
+.tu_1{
+  width: 100%;
+  height: 316rpx;
+  position: relative;
+  background-color: transparent;
+  border-radius:58rpx; 
+}
+.tu_2{
+  width: 92%;
+  height: 100%;
+  position: absolute;
+  left: 20rpx;
+  top: -80rpx;
+}

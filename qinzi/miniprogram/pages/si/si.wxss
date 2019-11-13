@@ -1,0 +1,131 @@
+/* pages/si/si.wxss */
+.si_img{
+  width: 80%;
+  margin-left: 10%;
+  height: 324rpx;
+}
+.si_1{
+  position: relative;
+  width: 100%;
+  height: 140rpx;
+}
+.si_2{
+  color: #333;
+  font-size: 26rpx;
+  line-height: 80rpx;
+  margin-left: 10%;
+}
+.si_3{
+  display: flex;
+  margin-left: 10%;
+}
+.si_3>view{
+  width: 100rpx;
+  height: 30rpx;
+  font-size: 20rpx;
+  color: #666;
+  line-height: 15px;
+  text-align: center;
+  border: 1px solid #ccc;
+  margin-right: 4px;
+  margin-bottom: 12px;
+  vertical-align: top;
+}
+.si_4{
+  width: 80%;
+  height: 162rpx;
+  display: flex;
+  flex-direction: column;
+  margin-left:10%; 
+}
+.si_4>view{
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+.si_4>view>image{
+  width: 30rpx;
+  height: 30rpx;
+  padding-top: 30rpx;
+  margin-right: 10rpx;
+}
+.si_4>view>view{
+  color: #656565;
+  line-height: 80rpx;
+  border-bottom: 2rpx solid #f2f2f2;
+  font-size:22rpx; 
+  
+}
+.si_5{
+  width: 100%;
+  height: 70rpx;
+  margin-left: 10%;
+  display: flex;
+  margin-top: 20rpx;
+}
+.si_5 image{
+  width: 30rpx;
+  height: 30rpx;
+  margin-top: 10rpx;
+}
+.si_5>view{
+  color: #333;
+  font-size: 30rpx;
+  margin-left: 10rpx;
+}
+.si_6{
+  width: 100%;
+  height: 150rpx;
+  display: flex;
+  margin-left: 10%;
+  border-bottom: 2rpx solid F2F2F2;
+}
+.si_6>image{
+  width: 128rpx;
+  height: 102rpx;
+}
+.si_7{
+  margin-left: 10%;
+  position: relative;
+}
+.si_7>view:nth-child(1){
+  color: #333;
+  font-size: 22rpx;
+  margin-bottom: 12rpx;
+  line-height: 13rpx;
+  margin-left: 20rpx;
+}
+.si_7>view:nth-child(2){
+  color: #f00;
+  font-size: 26rpx;
+}
+.si_8{
+  position: absolute;
+  right: 20rpx;
+  color: #999;
+  font-size: 28rpx;
+  line-height: 22rpx;
+  top: 100rpx;
+}
+.si_9{
+  position: absolute;
+  right: 20rpx;
+  color: #999;
+  font-size: 28rpx;
+  line-height: 22rpx;
+  top: 250rpx;
+}
+.si_10{
+  width: 100%;
+  height: 300rpx;
+  opacity: 1;
+}
+.si_10 image{
+  width: 152rpx;
+  height: 152rpx;
+  margin-left: 35%;
+}
+.zj{
+  z-index: 99;
+}
+

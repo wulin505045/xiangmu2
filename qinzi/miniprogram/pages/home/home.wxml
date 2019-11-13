@@ -1,0 +1,155 @@
+<!--pages/home/home.wxml-->
+<!-- <text>pages/home/home.wxml</text> -->
+<!-- 轮播图 -->
+<view>
+  <swiper indicator-dots="true" autoplay="true" interval="5000" duration="500" circular="true" style="height:400rpx;">
+    <swiper-item bindtap="pintuan">
+    <image src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/15.jpg" style="width:100%;height:100%" ></image>
+    </swiper-item>
+    <swiper-item bindtap="xm">
+    <image src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/14.jpg" style="width:100%;height:100%;"></image>
+    </swiper-item>
+    <swiper-item bindtap="wd">
+    <image src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/10.jpg" style="width:100%;height:100%;"></image>
+    </swiper-item>
+     <swiper-item bindtap="hh">
+    <image src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/11.jpg" style="width:100%;height:100%;"></image>
+    </swiper-item>
+     <swiper-item bindtap="qj"> 
+    <image src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/12.jpg" style="width:100%;height:100%;"></image>
+    </swiper-item>
+     <swiper-item>
+    <image src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/13.jpg" style="width:100%;height:100%;"></image>
+    </swiper-item>
+  </swiper>
+</view>
+<view class="home_1" >
+  <view bindtap="child" wx:for="{{list}}" wx:key="index" data-id="{{item._id}}">
+    <image src="{{item.image}}"></image>
+    <view>{{item.title}}</view>
+  </view>
+</view>
+<view class="home_2">
+  <view class="home_3">帮我选课</view>
+  <image class="home_4" src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/25.png"></image>
+  <image class="home_5" src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/26.png"></image>
+</view>
+<view>
+  <view class="produ">
+    <view class="mk_1">
+      <view class="pro">
+        <view class="pro_1" wx:for="{{list1}}" wx:key="index" bindtap="leen">
+          <view class="title_1">{{item.title}}</view>
+          <view class="bj">
+            <view class="title_2">{{item.englist}}</view>
+          </view>
+          <image class="pro_2" src="{{item.image1}}"></image>
+          <image class="pro_3" src="{{item.image2}}"></image>
+        </view>
+         <view class="pro_4">
+            <view class="title_3">聚划算</view>
+            <view class="bj_3">
+            <view class="title_2"> 00 23 25</view>
+            </view>
+            <image class="pro_5" src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/07.jpg"></image>
+            <image class="pro_6" src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/08.jpg"></image>
+         </view>
+      </view>
+    </view>
+  </view>
+
+  <image class="gd" src="../../images/lx.png" bindtap="qd"></image>
+  <van-tabs active="{{ active }}" bind:change="onChange">
+  <van-tab title="最新入驻">
+    <view class="rz"  wx:for="{{list2}}" wx:key="index"> 
+      <view class="rz_1">
+        <view class="rz_2">{{item.title}}</view>
+          <image src="{{item.image1}}" class="rz_img1"></image>
+          <image src="{{item.image2}}" class="rz_img2"></image>
+          <image src="{{item.image3}}" class="rz_img3"></image>
+          <view class="rz_3">我是文本</view>
+      </view>
+      <view class="hy">
+        <image src="{{item.image4}}" class="hy_1"></image>
+        <view class="hy_2">{{item.detail}}</view>
+        <view class="hy_3">
+          <view class="hy_4">{{item.yy}}</view>
+        </view>
+      </view>
+      <view class="tu_1">
+        <image class="tu_2" src="{{item.image5}}"></image>
+      </view>
+    </view>
+  </van-tab>
+  <van-tab title="附件优选">
+    <view class="rz"  wx:for="{{list3}}" wx:key="index">
+      <view class="rz_1">
+        <view class="rz_2">{{item.title}}</view>
+          <image src="{{item.image1}}" class="rz_img1"></image>
+          <image src="{{item.image2}}" class="rz_img2"></image>
+          <image src="{{item.image3}}" class="rz_img3"></image>
+          <view class="rz_3">我是文本</view>
+      </view>
+      <view class="hy">
+        <image src="{{item.image4}}" class="hy_1"></image>
+        <view class="hy_2">{{item.detail}}</view>
+        <view class="hy_3">
+          <view class="hy_4">{{item.yy}}</view>
+        </view>
+      </view>
+      <view class="tu_1">
+        <image class="tu_2" src="{{item.image5}}"></image>
+      </view>
+    </view>
+  </van-tab>
+   <van-tab title="人气浏览">
+    <view class="rz"  wx:for="{{list4}}" wx:key="index">
+      <view class="rz_1">
+        <view class="rz_2">{{item.title}}</view>
+          <image src="{{item.image1}}" class="rz_img1"></image>
+          <image src="{{item.image2}}" class="rz_img2"></image>
+          <image src="{{item.image3}}" class="rz_img3"></image>
+          <view class="rz_3">我是文本</view>
+      </view>
+      <view class="hy">
+        <image src="{{item.image4}}" class="hy_1"></image>
+        <view class="hy_2">{{item.detail}}</view>
+        <view class="hy_3">
+          <view class="hy_4">{{item.yy}}</view>
+        </view>
+      </view>
+      <view class="tu_1">
+        <image class="tu_2" src="{{item.image5}}"></image>
+      </view>
+    </view>
+  </van-tab>
+   <van-tab title="新手数量">
+    <view class="rz"  wx:for="{{list5}}" wx:key="index">
+      <view class="rz_1">
+        <view class="rz_2">{{item.title}}</view>
+          <image src="{{item.image1}}" class="rz_img1"></image>
+          <image src="{{item.image2}}" class="rz_img2"></image>
+          <image src="{{item.image3}}" class="rz_img3"></image>
+          <view class="rz_3">我是文本</view>
+      </view>
+      <view class="hy">
+        <image src="{{item.image4}}" class="hy_1"></image>
+        <view class="hy_2">{{item.detail}}</view>
+        <view class="hy_3">
+          <view class="hy_4">{{item.yy}}</view>
+        </view>
+      </view>
+      <view class="tu_1">
+        <image class="tu_2" src="{{item.image5}}"></image>
+      </view>
+    </view>
+  </van-tab>
+</van-tabs>
+</view>
+
+
+
+
+
+
+

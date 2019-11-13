@@ -1,0 +1,38 @@
+<!--pages/search/search.wxml-->
+<!-- <text>pages/search/search.wxml</text> -->
+<view>
+  <van-search
+    value="{{ value }}"
+    placeholder="请输入搜索关键词"
+    show-action
+    bind:search="onSearch"
+    background="blue"
+  />
+   <view class="shop_6">
+    <view class="shop_7" wx:for="{{list5}}" wx:key="index">
+      <image src="{{item.image1}}"></image>
+      <view class="shop_title">{{item.title}}</view>
+      <view class="shop_yy">
+        <view class="shop_yy1">{{item.zhe}}</view>
+      </view>
+      <view class="shop_bb">
+        <view class="shop_bb1">{{item.you}}</view>
+      </view>
+      <view class="shop_zz">{{item.price}}</view>
+      <view class="shop_y">{{item.yuan}}</view>
+      <view class="fk">{{item.fu}}</view>
+      <!-- <view class="gw1">
+        <image src="{{list5.image2}}" class="gw2"></image>
+      </view> -->
+    </view>
+  </view>
+</view>
+
+
+
+
+
+
+
+
+

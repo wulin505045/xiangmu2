@@ -1,0 +1,26 @@
+<!--pages/tuo/tuo.wxml-->
+<!-- <text>pages/tuo/tuo.wxml</text> -->
+<image class="tuo_1" src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/50.jpg"></image>
+<view  wx:for="{{list}}" wx:key="index">
+  <view class="tuo">
+    <image class="tuo_2" src="{{item.image2}}"></image>
+    <view class="tuo_3">
+      <image src="{{item.image3}}"></image>
+      <view>{{item.rx}}</view>
+    </view>
+  </view>
+  <view class="tuo_5">
+    <view class="tuo_6">{{item.title}}</view>
+    <view class="tuo_7">
+      <view class="tuo_8">￥</view>
+      <view class="tuo_9">{{item.price}}</view>
+      <view class="tuo_10">￥{{item.yuan}}</view>
+      <image class="tuo_11" src="{{item.image4}}"></image>
+      <view class="tuo_12">{{item.mai}}</view>
+      <image class="tuo_13" src="{{item.image5}}" bindtap="world" data-id="{{item._id}}"></image>
+    </view>
+  </view>
+</view>
+
+
+

@@ -1,0 +1,9 @@
+ <view class="sign" wx:if="{{isLogin == true}}">
+    <image class="image" src='../../dist/images/sign.png'></image>
+    <view class="sign_info">
+      <view wx:if="{{signed==false}}" bindtap='sign'>点击此处签到</view>
+      <view wx:if="{{signed==true}}">今日已签到</view>
+      <view>已签到{{total_sign}}天</view>
+    </view>
+ </view>
+ <view>扫噶上来干啥婆婆蓬【；阿司匹林撒</view>

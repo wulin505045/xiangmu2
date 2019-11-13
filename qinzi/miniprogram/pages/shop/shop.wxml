@@ -1,0 +1,36 @@
+<!--pages/shop/shop.wxml-->
+<view id="shop">
+  <image src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/3.jpg" class="shop_img1"></image>
+  <van-search value="{{ value }}" placeholder="请输入搜索关键词" bindtap="sea"/>
+  <view class="shop_1">
+    <view class="shop_2"> 
+      <view class="shop_3">秒杀</view>
+      <image src="cloud://awl-7f6oh.6177-awl-7f6oh-1300467169/shop_time.png" class="shop_img2"></image>
+      <view class="shop_4">查看更多 >></view>
+    </view>
+    <view class="shop_5">
+      <view   wx:for="{{list}}" wx:key="index" data-id="{{item._id}}" bindtap="chak">
+        <image src="{{item.image1}}"></image>
+        <view>{{item.title}}</view>
+      </view>
+    </view>
+  </view>
+  <view class="shop_6">
+    <view class="shop_7" wx:for="{{list1}}" wx:key="index" data-id="{{item._id}}" bindtap="chak">
+      <image src="{{item.image1}}"></image>
+      <view class="shop_title">{{item.title}}</view>
+      <view class="shop_yy">
+        <view class="shop_yy1">6.67折优惠</view>
+      </view>
+      <view class="shop_bb">
+        <view class="shop_bb1">{{item.you}}</view>
+      </view>
+      <view class="shop_zz">￥{{item.price}}</view>
+      <view class="shop_y">￥{{item.yuan}}</view>
+      <view class="fk">{{item.fu}}</view>
+      <!-- <view class="gw1">
+        <image src="{{item.image2}}" class="gw2"></image>
+      </view> -->
+    </view>
+  </view>
+</view>

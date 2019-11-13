@@ -1,0 +1,83 @@
+/* pages/search/search.wxss */
+.shop_6{
+  margin-top: 20rpx;
+  height: 1100rpx;
+  background-color: rgb(243,243,243);
+  display: flex;
+  flex-wrap: wrap;
+}
+.shop_7{
+  width: 50%;
+  position: relative;
+  margin-bottom: 30rpx;
+}
+.shop_7 image{
+  width: 95%;
+  height: 70%;
+  margin-left: 10rpx;
+  margin-top: 20rpx;
+}
+.shop_title{
+  color: #333;
+  font-size: 30rpx;
+  margin-left:40rpx; 
+}
+.shop_yy{
+  background: rgba(255, 113, 0, 0.2);
+  border-radius:40rpx;
+  width: 150rpx;
+  height: 32rpx;
+  margin-left: 40rpx; 
+  margin-top: 10rpx;
+}
+.shop_yy1{
+  color: #ff7100;
+  font-size: 24rpx;
+  text-align: center;
+}
+.shop_bb{
+  background: rgba(255, 113, 0, 0.2);
+  border-radius:40rpx;
+  width: 90rpx;
+  height: 32rpx;
+  position: absolute;
+  bottom:60rpx;
+  left: 200rpx;
+}
+.shop_bb1{
+  color: #ff7100;
+  font-size: 24rpx;
+  text-align: center;
+}
+.shop_zz{
+  font-size: 34rpx;
+  color: #ff7100;
+  margin-left: 40rpx; 
+  margin-top: 5rpx;
+}
+.shop_y{
+  font-size: 26rpx;
+  color: #999;
+  position: absolute;
+  left: 150rpx;
+  bottom: -55rpx;
+}
+.fk{
+  font-size: 26rpx;
+  color: #999;
+  margin-left: 40rpx;
+}
+.shop_8{
+  margin-top: 50rpx;
+  height: 550rpx;
+  background-color: rgb(243,243,243);
+  display: flex;
+  flex-wrap: wrap;
+}
+.gw1{
+  width: 61rpx;
+  height: 80rpx;
+  position: absolute;
+  right: 20rpx;
+  bottom: 10rpx;
+}
